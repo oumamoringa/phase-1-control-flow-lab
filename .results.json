@@ -5,15 +5,15 @@
     "passes": 0,
     "pending": 0,
     "failures": 8,
-    "start": "2022-08-16T06:08:52.157Z",
-    "end": "2022-08-16T06:08:52.792Z",
-    "duration": 635
+    "start": "2022-08-16T08:04:46.342Z",
+    "end": "2022-08-16T08:04:46.772Z",
+    "duration": 430
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected '30 dollars' to equal 'This one is on me!'",
@@ -64,7 +64,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'No go.'",
@@ -100,7 +100,7 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Bye.'",
@@ -115,7 +115,7 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected '30 dollars' to equal 'This one is on me!'",
@@ -166,7 +166,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'No go.'",
@@ -202,7 +202,7 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Bye.'",
