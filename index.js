@@ -1,18 +1,35 @@
-function scuberGreetingForFeet(){
+function scuberGreetingForFeet(distance){
   // Write your code here!
-  if ("distance" <= "400 feet")
-    return "free ride";
-  else if ("distance" > "200 feet")
-    return "30 dollars";
-  else
-    return "Does not allow ride";
-
+ if (distance <= 400 ){
+  return "This one is on me!"
+ } else if (distance > 2000 && distance < 2500){
+    return "I will gladly take your thirty bucks."
+ } else
+    return "No can do."
 }
+scuberGreetingForFeet();
 
-function ternaryCheckCity(){
+function ternaryCheckCity(city){
   // Write your code here!
+  if (city === "NYC"){
+      return "Ok, sounds good."
+  } else {
+    return "No go."
+  }
 }
+ternaryCheckCity();
 
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(tip){
   // Write your code here!
+  switch(tip){
+    case "generous":
+      return "Thank you so much.";
+      break;
+    case "not as generous":
+      return "Thank you.";
+      break;
+      default:
+        return "Bye.";
+  }
 }
+switchOnCharmFromTip();
